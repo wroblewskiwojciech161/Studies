@@ -8,13 +8,14 @@ message = "00011100 10001101 10111011 11000101 11000001 10101101 10101011 001001
 
 
 class Decryptor:
-    def __init__(self,limit):
+    def __init__(self,crypt_limit, length_limit):
 
         self.messages = [message.split()]
-        self.cryptograms = get_cryptograms(limit,1)
+        self.cryptograms = get_cryptograms(crypt_limit,length_limit)
         self.MAX = get_max_length(self.cryptograms)
         self.key = []
         self.guess_letter_storage = get_letters()
+        self.letters = letters(self.guess_letter_storage)
 
     def message_decription(self):
 
@@ -45,7 +46,7 @@ class Decryptor:
                         partial_candidates[candidate[0]] = partial_candidates.get(candidate[0]) + freq
 
             # add nth best candidate
-            self.key.append(get_best_nth_candidate(partial_candidates))
+            self.key.append(get_best_nth_candidate(partial_candidates,i,matching_cryptograms,self.letters))
 
         get_message(self.cryptograms,self.key)
 
@@ -54,6 +55,26 @@ class Decryptor:
         print("--------------------------------")
         get_message(self.messages,self.key)
 
+
+
+def check_if_right_candidate(candidate,n,matching_cryptograms,letters):
+    
+    for c in matching_cryptograms:
+
+        char = get_cryptogram_chars(c)[n]
+        temp = ord(char) ^ candidate
+        
+        if chr(temp) in letters:
+            return True
+    return False
+
+
+
+def letters(dict):
+    out=[]
+    for d in dict:
+        out.append(d[0])
+    return out
 
 def get_letters():
     file = open("alphabet.txt", "r")
@@ -105,10 +126,15 @@ def get_max_length(cryptograms):
     return max
 
 
-def get_best_nth_candidate(dictionary):
-
+def get_best_nth_candidate(dictionary,i,matching_cryptograms,letters):
+    SPACE = 32
     temp = dict(sorted((value, key) for (key,value) in dictionary.items()))
-    return temp.popitem()[1]
+    while len(temp) > 0:
+        c = temp.popitem()[1]
+        if check_if_right_candidate(c,i,matching_cryptograms,letters):
+            return  c
+
+    return SPACE
         
 def get_message(cryptograms , key):
     for c in cryptograms:
@@ -119,6 +145,6 @@ def get_message(cryptograms , key):
 
 
 
-d = Decryptor(20)
+d = Decryptor(20,1)
 d.message_decription()
 
