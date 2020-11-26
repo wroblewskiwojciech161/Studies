@@ -1,0 +1,25 @@
+24
+max
+insert aaa
+insert a
+insert zyz
+insert t
+successor a
+max
+inorder
+insert b
+find b
+insert ab
+inorder
+delete a
+delete b
+max
+load sample.txt
+find three
+delete three
+find three
+insert ybf
+delete Three
+successor ybf
+inorder
+min

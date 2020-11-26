@@ -1,5 +1,6 @@
 
-#lista 3 bezpieczenstwo
+#lista 3 bezpieczenstwo komputerowe
+#Wojciech Wroblewski 
 
 import ast
 
@@ -33,10 +34,8 @@ class Decryptor:
                 # xor  n-th char of c  with  freq-dict
                 for letter_key, freq in self.guess_letter_storage.items():
 
-                    # after xoring we should get n-th key element
+                    
                     candidate = (ord(char) ^ (ord(letter_key)), freq)
-
-                    #print(c_chars[n] ,"   ",letter,"  ",tmp)
 
                     if candidate[0] not in partial_candidates.keys():
                         partial_candidates[candidate[0]] = freq
@@ -45,13 +44,13 @@ class Decryptor:
                     else:
                         partial_candidates[candidate[0]] = partial_candidates.get(candidate[0]) + freq
 
-            # add nth best candidate
+            # add nth best candidate after validation
             self.key.append(get_best_nth_candidate(partial_candidates,i,matching_cryptograms,self.letters))
 
         get_message(self.cryptograms,self.key)
 
         print("--------------------------------")
-        print("TO ENCODED")
+        print("TO ENCODE")
         print("--------------------------------")
         get_message(self.messages,self.key)
 
@@ -60,14 +59,12 @@ class Decryptor:
 def check_if_right_candidate(candidate,n,matching_cryptograms,letters):
     
     for c in matching_cryptograms:
-
         char = get_cryptogram_chars(c)[n]
         temp = ord(char) ^ candidate
         
         if chr(temp) in letters:
             return True
     return False
-
 
 
 def letters(dict):
@@ -144,7 +141,8 @@ def get_message(cryptograms , key):
         print(msg)
 
 
-
+# 20 -> number of cryptograms
+# 1 -> length of cryptograms 1 means 100%
 d = Decryptor(20,1)
 d.message_decription()
 

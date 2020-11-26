@@ -1,0 +1,4 @@
+lock on repo1
+change in repo2 on locked file
+unlocked file with --force in repo2
+lets try to update

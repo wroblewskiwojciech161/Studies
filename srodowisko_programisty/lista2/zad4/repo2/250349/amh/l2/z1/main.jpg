@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python zad1.py $1 $2 $3

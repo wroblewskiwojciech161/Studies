@@ -1,0 +1,270 @@
+=================================
+Lista 2 - środowisko programisty
+=================================
+
+=================================
+zad 1
+=================================
+
+# tworzymy dwa foldery i tworzymy w nich kopie robocze
+
+mkdir repo1
+mkdir rempo1
+cd repo1
+svn checkout https://repo.cs.pwr.edu.pl/250349/svn_test
+cd ..
+cd repo2
+svn checkout https://repo.cs.pwr.edu.pl/250349/
+cd ..
+ls
+# plik jest pod kontrola wersji wiec teraz tylko commit
+svn commit -m "commit from repo1"
+
+#wchodzimy na do drugiego folderu z kopia robocza
+#i zmieniamy lekko zawartość test.txt. Przed
+#commitem robimy update.
+
+svn up test.txt
+
+
+>>>MERGE CONFLICT (postpone option)
+# powstały nowe pliki. plik .mine zawiera to co mamy lokalnie.
+# .r15 to ostatnia(AKTUALNA) zcomittowana wersja z repo ( comit z repo1)
+# .r14 to ostatnia rzecz jaką pobralismy z repo ( w naszym przypadku to wiadomość jaka była przez zmianą na repo1 oraz repo2  tj. Hello Svn !!!)
+
+ls
+nano test.txt.r14/15/mine
+
+# odpalając  plik test.txt najdziemy moje zmiany i dane aktualne na repo #w krokach r15 i r14 czyli przez zmiany z kopie roboczej repo1 oraz repo2
+
+nano test.txt
+
+# powiedzmy, że chcemy aby z miany wprowadzone na repo2 były w finalnej wersji na repo (usuwamy to czego nie chcemy)
+#zapisujemy i używamy komendy svn resolved
+
+svn resolved test.txt
+
+#konflik został rozwiązany
+
+svn commit test.txt -m "resolved conflict between repo1 and repo2"
+
+
+#obserwujemy że pliki mine,14,15 zniknęły
+
+
+
+#wprowadzamy zmieny w pliku test.txt w folderze svn_test
+# na jednej kopii roboczej
+
+cd repo1
+cd svn_test
+nano test.txt
+
+#dodajemy
+
+
+
+
+#grep informacje o konflikcie w status
+svn st | grep '^C'
+
+=================================
+zad 2
+=================================
+
+#wchodzimy do folderu i rekursyjnie pobieramy folderowanie z listy 1
+# bd nam ono pomogało w poprawności sparse directories
+
+# żeby zachować porządek tworzę podkatalogi z oryginalnym trzewem folderowym oraz inne podkatalogi na przykładowe kopie robocze z wykorzystaniem sparse directories 
+
+svn checkout https://repo.cs.pwr.edu.pl/info/SP-20-21/l1/a/
+
+# pierwszy przykład bd chcieli pobrać folder z hierarchi bez jego plików ani innych dzieci w postaci podfolderów ( praktycznie tylko folder z nazwa)
+WYkorzystamy flagę  "--depth empty"
+
+
+mkdir ex1
+cd ex1
+svn checkout https://repo.cs.pwr.edu.pl/info/SP-20-21/l1/a/a --depth empty
+ls / cd działa
+
+# drugi test wyśietlmy podkatalog głownego katalogu a. Podkatalogiem bd folder b ale pobierzmy do kopii roboczej zawartości wszystkich plików dzieci oraz foldery dzieci ( bez zawartośc ipodfolderów)
+
+svn checkout https://repo.cs.pwr.edu.pl/info/SP-20-21/l1/a/b --depth immediates
+
+# kolejny przykład to pokażmy jedynie pliki dzieci a nie pokazujmy folderów/ na folderze wyżej
+
+svn checkout https://repo.cs.pwr.edu.pl/info/SP-20-21/l1/a/b --depth files
+
+# pokażmy jeszcze jak usunąć wszystkie foldery dzieci z ich zawartością pozostawiając pliki dzieci  z folderu  b 
+
+svn up --set-depth=files b
+
+=================================
+zad 3
+=================================
+
+#W zadaniu spraedzimy nadawanie executable property na skrypt
+#w tym celu stworzymy kopie roboczą ../ svn_test
+
+
+svn checkout https://repo.cs.pwr.edu.pl/250349/svn_test
+
+#utworzymy w niej 2 skrypty "hello world", jednemu nadamy property:
+
+#!/bin/bash
+echo "Hello World, script1 here"
+
+
+
+svn add script1.sh
+svn add script2.sh
+svn propset svn:executable on  script1.sh
+svn commit -m "checking executable property on scripts"
+
+
+przchodzimy do innejgo folderu inicjalujemy kopię roboczą z folderem svn_test
+
+wyświetlami pliki i widzimy że script1 możemy odpalić a script2 nie. Dzieje
+się tak że nadając property executable nadajemy pliku uprawnienia, bez konieczności np (wpisywania za każdym popraniem repo  chmod 777 script2.sh)
+
+Obserwujemy że skrypt1 (wykonywalny) zmienił kolor na zielony.
+
+ 
+=================================
+zad 4
+=================================
+Utworzyć we własnym repozytorium podkatalog (np. o nazwie "externals") i ustawić na nim własność (property) ‘svn:externals’, tak aby w odpowiednim podkatalogu znalazła się kopia robocza repozytorium zewnętrznego:
+
+svn checkout https://repo.cs.pwr.edu.pl/250349
+
+cd 'środowisko programisty'
+mkdir externals
+svn add externals
+cd ..
+svn propedit svn:externals 'środowisko programisty'
+externals/info https://repo.cs.pwr.edu.pl/info/
+
+svn proplist 'środowisko programisty'
+cd 'środowisko programisty'/externals
+svn checkout https://repo.cs.pwr.edu.pl/info/
+cd ..
+cd ..
+svn commit
+
+
+co sie dzieje po zmianie repo??????????????????????????????????????????????????/
+
+cd cd .. cd .. cd..
+
+###zmiana repo ####
+
+- cd ~/Documents/250091
+
+
+sudo rm -r 250349
+svn checout https://repo.cs.pwr.edu.pl/250349 --ignore-externals
+tree 250349/'środowisko programisty'
+
+cd ..
+
+sudo rm -r 250349
+svn checkout https://repo.cs.pwr.edu.pl/250349
+tree 250349/'środowisko programisty'
+ls sp/externals
+
+
+
+
+
+
+- cd ~/Documents/250091
+svn up --ignore-externals
+ls sp/externals
+svn up
+ls sp/externals
+cd ~/Documents
+sudo rm -r 250091
+svn co https://repo.cs.pwr.edu.pl/250091 --ignore-externals
+ls sp/externals
+cd ..
+sudo rm -r 250091
+svn co https://repo.cs.pwr.edu.pl/250091
+cd 250091
+ls sp/externals
+
+
+svn log -v
+
+
+
+=================================
+zad 5
+=================================
+Przetestować zakładanie, usuwanie, zrywanie i podkradanie blokady plików 
+poleceniem lock.
+svn checkout https://repo.cs.pwr.edu.pl/250349/svn_test/zad5
+
+svn lock test.txt
+svn unlock --froce test.txt
+svn lock --force test.txt
+
+=================================
+zad 6
+=================================
+
+6.1>  nano a.txt nano b.txt / add / commit
+6.2>  svn delete b  / commit
+6.3>  nano a (dopisz) / svn move a.txt b.txt / commit
+6.4>  nano b ( dopisz) / svn move b.txt c.txt /commit
+6.5>  nano b.txt (dopisz)/ svn add b.txt 
+
+
+
+svn log -v c.txt
+svn log -v b.txt
+svn log -v a.txt
+
+
+svn compy -r52 c.txt@56 d.txt
+cat d.txt
+
+svn log -v
+
+
+
+
+=================================
+zad 7
+=================================
+wejdz w folder svn w mnie to 
+
+cd ~/Desktop/svn/000000
+
+(pokaż że nic tam nie ma)
+
+mam wygenrowane klucze wobec tego 
+
+cd ~/.ssh/
+
+ls
+
+cp  id_rsa.pub ~/Desktop/svn/000000
+
+cd ~/Desktop/svn/000000
+
+
+mv rd_rsa.pub 000000.pub
+
+cat 000000.pub
+
+THE END
+
+
+//////////////// potem vsjald 203 ( pokaż wczesniejsze wrsje )
+#  peg operative / peg revision
+kopijuesz plik z rewizji 22  ct.txt do 
+wyśeitelanie wartości c.txt  z wersji 33 pokazan w d.txt
+
+
+svn copy -r22 c.txt@24 d.txt
