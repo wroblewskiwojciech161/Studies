@@ -1,0 +1,129 @@
+/*Wojciech Wróblewski 250349 zad2 lista3 jftt*/
+%{
+  #include <cmath>
+  #include <iostream>
+  #include"functions.hpp"
+
+  int yylex (void);
+  void yyerror (std::string);
+  std::string display = "";
+  bool error = false;
+  /*defining ring of calculations*/
+  int p = 1234577;
+%}
+
+%token NUMBER
+%token LBRACKET
+%token RBRACKET
+%token QUIT
+%token ERROR
+%left ADD SUB 
+%left MULT DIVIDE MODULO
+%precedence NEGNUMBER NEG 
+%right POWER     
+
+%% 
+
+input:
+  %empty
+| input line
+;
+
+line:
+  QUIT
+| expression QUIT {
+  if (!error) {
+    std::cout << display << std::endl << "Wynik:" << $1 << std::endl;
+  }
+  display = "";
+  error = false;
+}
+| error QUIT {
+  error = false;
+  display = "";
+};
+
+
+expression: SUB NUMBER %prec NEGNUMBER    {  display =addToDisplay(display,std::to_string(ring_mod(-$2,p)));
+                                             $$ = ring_mod(-$2,p);
+
+                                          };
+expression :NUMBER                        {  display =addToDisplay(display,std::to_string(ring_mod($1,p))) ;
+                                             $$ = ring_mod($1,p); 
+                                          };
+expression: expression ADD expression     {  display=addToDisplay(display,"+");
+                                             $$ = ring_mod($1 + $3,p);                
+                                          };
+expression: expression SUB expression     {  display=addToDisplay(display,"-");
+                                             $$ = ring_mod($1 - $3,p);
+                                          };
+
+expression :expression DIVIDE expression  {
+                                             display=addToDisplay(display,"/");
+                                             if ($3 != 0)$$ = ring_mod($1 * modularInverse($3,p),p);
+                                             else yyerror ("Division by zero");
+                                          };
+expression :expression MULT expression    {  display=addToDisplay(display,"*");
+                                             $$ = ring_mod($1 * $3,p);             
+                                          };
+expression: expression MODULO expression  {
+                                             display=addToDisplay(display,"%");
+                                             if ($3 != 0)$$ = ring_mod(($1 % $3 + $3) % $3,p);
+                                             else yyerror ("Modulo by zero error!");
+                                          };      
+expression: expression POWER exponent     {
+                                             display=addToDisplay(display,"^");
+                                             $$ = ring_mod(pow($1, $3,p),p);
+                                          };              
+expression: SUB expression  %prec NEG     { 
+                                             display=addToDisplay(display,"-");
+                                             $$ = ring_mod(-$2,p);
+                                          };
+expression: LBRACKET expression RBRACKET  {  $$ = ring_mod($2,p);};
+;
+
+
+exponent: SUB NUMBER %prec NEGNUMBER      {  display =addToDisplay(display,std::to_string(ring_mod(-$2,p-1)));
+                                             $$ = ring_mod(-$2,p-1);
+                                          };
+exponent: NUMBER                          {  display =addToDisplay(display,std::to_string(ring_mod($1,p-1))) ;
+                                             $$ = ring_mod($1,p-1);
+                                          };
+exponent: exponent ADD exponent           {  display=addToDisplay(display,"+");
+                                             $$ = ring_mod($1 + $3,p-1);         };
+exponent: exponent SUB exponent           {  display=addToDisplay(display,"-");
+                                             $$ = ring_mod($1 - $3,p-1);         };
+exponent: exponent DIVIDE exponent        {
+                                             display=addToDisplay(display,"/");
+                                             if ($3 != 0) $$ = ring_mod($1 * modularInverse($3,p),p-1);
+                                             else yyerror ("Devision by zero error !");
+                                          };
+exponent: exponent MULT exponent          {  display=addToDisplay(display,"*");
+                                             $$ = ring_mod($1 * $3,p-1);         };
+
+exponent: exponent MODULO exponent        {
+                                             display=addToDisplay(display,"%");
+                                             if ($3 != 0) $$ = ring_mod(($1 % $3 + $3) % $3,p-1);
+                                             else yyerror ("Modulo by zero error !");
+                                          };                  
+exponent: SUB exponent  %prec NEG         {  display += "- ";
+                                             $$ = ring_mod(-$2,p-1);
+                                          };
+exponent: LBRACKET exponent RBRACKET      {  $$ = ring_mod($2,p-1);};                                          
+exponent: exponent POWER exponent         {  yyerror ("Concatenation of exponents forbidden.");};
+
+;
+
+%%
+
+
+void yyerror (std::string message)
+{
+  error = true;
+  std::cout << "Błąd.\n" << message << std::endl;
+}
+
+int main (void)
+{
+  return yyparse ();
+}

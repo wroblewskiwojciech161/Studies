@@ -1,0 +1,267 @@
+1607644513827	geckodriver	INFO	Listening on 127.0.0.1:57265
+1607644514719	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKwA6GB"
+1607644519214	Marionette	INFO	Listening on port 38657
+1607644519258	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 2: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546 line 16 > eval, line 16: TypeError: dijit.byId(...) is undefined
+1607644539326	Marionette	INFO	Stopped listening on port 38657
+1607645380952	geckodriver	INFO	Listening on 127.0.0.1:46819
+1607645380955	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesuA02e"
+1607645384757	Marionette	INFO	Listening on port 44549
+1607645384845	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 2: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546 line 16 > eval, line 16: TypeError: dijit.byId(...) is undefined
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 7: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546 line 16 > eval, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 76: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 48: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 23: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 50: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 78: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 86: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 146: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 23: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 40: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 36: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 37: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 44: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 2167: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546 line 16 > eval, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 132: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 110: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1607645400669	Marionette	INFO	Stopped listening on port 44549
+1607645428197	geckodriver	INFO	Listening on 127.0.0.1:59423
+1607645428203	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNl9hgB"
+1607645431764	Marionette	INFO	Listening on port 43611
+1607645431781	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 2: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546 line 16 > eval, line 16: TypeError: dijit.byId(...) is undefined
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 7: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546 line 16 > eval, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 76: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 48: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 23: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 50: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 78: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 86: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 146: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 23: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 40: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 36: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 37: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 44: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 2167: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546 line 16 > eval, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 132: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 110: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1607645502826	geckodriver	INFO	Listening on 127.0.0.1:34547
+1607645502830	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileO4g4cA"
+1607645507072	Marionette	INFO	Listening on port 42235
+1607645507160	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 2: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546 line 16 > eval, line 16: TypeError: dijit.byId(...) is undefined
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 7: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546 line 16 > eval, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 76: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 48: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 23: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 50: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 78: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 86: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 146: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 23: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 40: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 36: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 37: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 44: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 2167: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546 line 16 > eval, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 132: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 110: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1607645524118	Marionette	INFO	Stopped listening on port 42235
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1607645588481	geckodriver	INFO	Listening on 127.0.0.1:52545
+1607645588485	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemqHyKT"
+1607645591835	Marionette	INFO	Listening on port 33791
+1607645591925	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 2: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546 line 16 > eval, line 16: TypeError: dijit.byId(...) is undefined
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 7: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546 line 16 > eval, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 76: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 48: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 23: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 50: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 78: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 86: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 146: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 23: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 40: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 36: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 37: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 44: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 2167: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546 line 16 > eval, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 132: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 110: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1607645614398	Marionette	INFO	Stopped listening on port 33791
+1607645627259	geckodriver	INFO	Listening on 127.0.0.1:43867
+1607645627263	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZxWsl3"
+1607645630941	Marionette	INFO	Listening on port 41447
+1607645630985	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 2: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546 line 16 > eval, line 16: TypeError: dijit.byId(...) is undefined
+1607645671745	geckodriver	INFO	Listening on 127.0.0.1:33493
+1607645671754	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0NftfS"
+1607645675269	Marionette	INFO	Listening on port 43061
+1607645675285	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: Error: Could not load 'iwc.i18n.resources'; last tried '../../iwc/i18n/resources.js'
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1607645716784	Marionette	INFO	Stopped listening on port 43061
+1607645733402	geckodriver	INFO	Listening on 127.0.0.1:40553
+1607645733411	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWF6d4o"
+1607645736821	Marionette	INFO	Listening on port 43403
+1607645736838	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 2: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 16: unreachable code after return statement
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 18: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546, line 3: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: https://s.student.pwr.edu.pl/iwc_static/js/dojotoolkit/dojo/dojo.js?3.0.1.3.0_16070546 line 16 > eval, line 16: TypeError: dijit.byId(...) is undefined
+1607645779113	Marionette	INFO	Stopped listening on port 41447

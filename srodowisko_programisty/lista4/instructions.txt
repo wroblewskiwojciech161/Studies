@@ -1,0 +1,177 @@
+#########################################
+ZAD1 git
+########################################
+
+#utworzyć swoją kopię roboczą projektu,
+
+>git clone git@156.17.7.16:sandbox-20-21_25
+
+
+
+#utworze swojego brancha, dodam wlasny poprogram i 
+# zmodyfikuje konieczne pliki
+
+> git pull
+> git checkout -b 250349
+>git branch
+> dodawanie plikow
+
+# spr czy dziala make
+>make
+>./program 250349
+>make clean
+
+
+
+> git add .
+>git status
+> git commit -m "student 250349 dodaje podprogram"
+>git push
+>git push --set-upstream origin 250349
+
+>git pull
+> git checkout master
+>git pull
+
+>git checkout 250349
+> git merge master
+
+[usun knflika jak trzeba git add i commit ]
+# spr czy up to date
+# udalo sie zmergowac z mastserem
+>git merge master
+
+
+> git checkout master
+> git pull
+> git merge 250349
+> git commit -m " merge z branchem strudenta 250349"
+
+>git push
+
+
+# usunmy brancha i stworzmy odpowiedniego  taga dla danej versji studenta
+
+> git branch -d 250349
+
+> git push remote --delete 250349
+> git push origin --delete 250349
+
+# prawdopodobnie nie mam uprawnien zby usunac remote brancha
+
+> git push origin :250349 ( opcjonalnie)
+
+# stworzmy taga 
+
+> git tag -a v_250349 -m " wersja student 250349"
+> git status 
+> git push --tags
+
+
+# przetestujmmy wersje studenta 250349 
+# w tym celu znowu sklonujmy repo ( tym razem w innym folderze)
+
+cd .. cd ..  ls
+
+>git clone git@156.17.7.16:sandbox-20-21_25
+
+> cd sandbox
+>git log
+
+
+>git checkout tags/v_250349 -b tag_250349
+> git branch
+>git branch -a
+
+# przetestujmy dzialanie 
+> make
+>./program 250349
+
+
+
+
+
+# dziala
+<<<<<<<<<<<<<<<<<<<<<<WAZNE>
+
+> make clean
+>git show
+>git show v_250349
+>git log --all --graph --decorate
+
+
+# to juz koniec zadania
+#exit
+
+
+
+
+
+
+
+
+
+
+
+
+w prezentacji pokazać, że program z utworzonego tag-a kompiluje się i wykonuje poprawnie.
+Wykonując polecenia należy je nagrywać z terminala wraz z wyświetlanymi komunikatami do sprawozdań asciinema.
+
+Można utworzyć więcej niż jedno nagranie, ale ich nazwy powinny zawierać numery wskazujące w jakiej kolejności należy je wyświetlać. Ostatnie nagranie zakończyć wyświetleniem svn log -v ... dla 
+
+
+#include "program.h"
+
+
+void s250349_podprogram() {
+    int n, reversedN = 0, remainder, originalN;
+    printf("\n\nAutor: \n\n");
+    printf("Podprogram wczytuje liczbę naturalną n i sprawdza, czy jest palindromem.\n\n");
+    printf("Wprowadź liczbę całkowitą: \n");
+    scanf("%d", &n);
+    originalN = n;
+
+    
+    while (n != 0) {
+        remainder = n % 10;
+        reversedN = reversedN * 10 + remainder;
+        n /= 10;
+    }
+
+    
+    if (originalN == reversedN)
+        printf("\n%d jest palindromem.", originalN);
+    else
+        printf("\n%d nie jest palindromem.", originalN);
+
+}
+
+
+
+
+
+
+
+==========================================================
+ZAD2
+===========================================================
+
+Napisz skrypt, który dla danych dwóch numerów rewizji r1 i  r2, gdzie r1r2,  oraz adresu URL katalogu w repozytorium SVN (istniejącego w rewizjach od r1 do r2) , generuje repozytorium GIT, które zawiera zawiera jedną gałąź master jako ciąg commit-ów  odpowiadających tym rewizjom z repozytorium SVN, które zmieniały dany katalog.
+Każdy commit w repozytorium GIT ma zawierać taki sam stan katalogu i 'commit message' jak stan katalogu i 'log message' odpowiedniej rewizji z repozytorium SVN.
+(Daty i autor nie muszą być kopiowane.).
+
+
+
+#!/bin/bash
+git svn clone --no-metadata -r$1:$2 $3
+
+przetestujmy skrypt 
+l4z2.sh 15 21 https://repo.cs.pwr.edu.pl/info/SP-20-21/l3/
+
+
+     git log --stat
+
+git log --stat | grep -v '^commit ' | grep -v '^Author: ' | grep -v '^Date: '
+
+
+
